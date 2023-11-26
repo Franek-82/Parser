@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-with open('C:/Users/User/Desktop/Новая папка/Elon Musk Discusses War, AI, Aliens, and Humanity _ Lex Fridman Podcast #400 — Eightify.html', 'r') as f:
+with open('C:/Users/rick1/Desktop/Новая папка/Elon Musk Discusses War, AI, Aliens, and Humanity _ Lex Fridman Podcast #400 — Eightify.html', 'r') as f:
     contents = f.read()
     soup = BeautifulSoup(contents, 'lxml')
     txt = f'\t\t\t\t{soup.h1.text}\n'
